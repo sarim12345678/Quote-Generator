@@ -9,4 +9,6 @@ function randomQuoteGenerator (){
 ]
     let length = randomGenerator.length
     result.innerText = length
+    let randomNumber = Math.floor(Math.random() * length)
+    result.innerText = randomGenerator[randomNumber]
 }
