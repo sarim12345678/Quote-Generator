@@ -8,7 +8,6 @@ function randomQuoteGenerator (){
     "Work hard in silence, let success make the noise." , "Start where you are. Use what you have. Do what you can"
 ]
     let length = randomGenerator.length
-    result.innerText = length
     let randomNumber = Math.floor(Math.random() * length)
     result.innerText = randomGenerator[randomNumber]
 }
